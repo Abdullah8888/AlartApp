@@ -50,7 +50,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		KNvkuiUSg18WCgENm4gktV9A2lI=
+		LVQhlv9uLv+mJokf4TaFoDPsdAQ=
 		</data>
 		<key>BankListModal.nib</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/AlatFramework-Swift.h</key>
 		<data>
-		DRjCKtJniLaUxnXrZ8mIZJKgJYA=
+		KD08Pko6zUw/Ot3trJL1yNFNTmI=
 		</data>
 		<key>Headers/AlatFramework.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ijPbUTMb3NZ+MqMdsaCE3xM8KXE=
+		qcZbK/ER6hm5dV43UVUoinZuk7w=
 		</data>
 		<key>InputField.nib</key>
 		<data>
@@ -172,21 +172,21 @@
 		<data>
 		dPtf0pqFweaEoI74sS5JY/kq2N0=
 		</data>
-		<key>Modules/AlatFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/AlatFramework.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		rs0A5olDo4PqaKrEXXKMaSWrq24=
+		PZLp8a8PGH2Y50GjEMR2IILqRz8=
 		</data>
-		<key>Modules/AlatFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/AlatFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
-		<key>Modules/AlatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/AlatFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4MlIlUmur1L2BCndGy++FAho24Y=
+		6swf3Ag/f8Ll01JTKHVVZHETxtE=
 		</data>
-		<key>Modules/AlatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/AlatFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Io90LzpNNSwTCB3TenyoyF7YlL0=
+		06kpSXh4Z3hA0x1maJ9C5wvEVcI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -372,7 +372,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			393Fh+JQzXRMA0/23SHZvC3c2dXntL5Fyo+lWX3WrUk=
+			Jkk2XAKOkOyMLf+7ka3VSnVCBw4w1sVDNxK1yPOHEVw=
 			</data>
 		</dict>
 		<key>BankListModal.nib</key>
@@ -491,7 +491,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6J734V1HS6TCeHo+VKnpTw1+9Wms+TPATCiH3BrLqMM=
+			CU5gehxj49M7sNAvn+Gfce9Sr11BfjmvAAzPoDr4mO0=
 			</data>
 		</dict>
 		<key>Headers/AlatFramework.h</key>
@@ -578,32 +578,32 @@
 			0Q1frcOE9+RTFcB+ftCglRch4EftyF7uNs/j8WuhY60=
 			</data>
 		</dict>
-		<key>Modules/AlatFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/AlatFramework.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EauCKNAOWUUfQ4+oZoYaB1X37szTg+RnMaeaL4NgfVg=
+			WfEJtoZ4ffRAcl1byvRXcZCSbeV0iyPuFCjg+/CpmJQ=
 			</data>
 		</dict>
-		<key>Modules/AlatFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/AlatFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
-		<key>Modules/AlatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/AlatFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zTii19SwawMWcb9Ooy9OChbn2c5GWVSoRd6J0Za2+ZI=
+			lUR5YiHr6T2H7e5w2TxTLdt7YHgf01tr2Euado82XAI=
 			</data>
 		</dict>
-		<key>Modules/AlatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/AlatFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rYuONwybHR21gXorxjzaUR0XifoSGXMKepo1R1D1gP0=
+			1a+YphhD6nVs0TTiFYp+ZEbb9Xc2lO15SL79sB79POc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

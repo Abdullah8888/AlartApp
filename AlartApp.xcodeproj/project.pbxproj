@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8762A352B7BE44200ECFDFE /* AlatFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8762A312B7BE43100ECFDFE /* AlatFramework.framework */; };
-		B8762A362B7BE44200ECFDFE /* AlatFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8762A312B7BE43100ECFDFE /* AlatFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B9524E12B7BECC800DE378F /* AlatFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9524DF2B7BECC000DE378F /* AlatFramework.framework */; };
+		0B9524E22B7BECC800DE378F /* AlatFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9524DF2B7BECC000DE378F /* AlatFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B8D496D22B7BD5A1004964E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D496D12B7BD5A1004964E8 /* AppDelegate.swift */; };
 		B8D496D42B7BD5A1004964E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D496D32B7BD5A1004964E8 /* SceneDelegate.swift */; };
 		B8D496D62B7BD5A1004964E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D496D52B7BD5A1004964E8 /* ViewController.swift */; };
@@ -21,6 +21,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0B9524DB2B7BEC9100DE378F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B9524D62B7BEC9100DE378F /* AlatFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5503F1C298B9D5500C3B5C2;
+			remoteInfo = AlatFramework;
+		};
+		0B9524DD2B7BEC9100DE378F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B9524D62B7BEC9100DE378F /* AlatFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5503F26298B9D5600C3B5C2;
+			remoteInfo = AlatFrameworkTests;
+		};
 		B8D496E52B7BD5A3004964E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B8D496C62B7BD5A1004964E8 /* Project object */;
@@ -35,20 +49,6 @@
 			remoteGlobalIDString = B8D496CD2B7BD5A1004964E8;
 			remoteInfo = AlartApp;
 		};
-		B8D4970F2B7BD74B004964E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B8D4970A2B7BD74B004964E8 /* AlatFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B5503F1C298B9D5500C3B5C2;
-			remoteInfo = AlatFramework;
-		};
-		B8D497112B7BD74B004964E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B8D4970A2B7BD74B004964E8 /* AlatFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B5503F26298B9D5600C3B5C2;
-			remoteInfo = AlatFrameworkTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +58,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B8762A362B7BE44200ECFDFE /* AlatFramework.framework in Embed Frameworks */,
+				0B9524E22B7BECC800DE378F /* AlatFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B8762A312B7BE43100ECFDFE /* AlatFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlatFramework.framework; sourceTree = "<group>"; };
+		0B9524D62B7BEC9100DE378F /* AlatFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AlatFramework.xcodeproj; path = AlatFramework/AlatFramework.xcodeproj; sourceTree = "<group>"; };
+		0B9524DF2B7BECC000DE378F /* AlatFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlatFramework.framework; sourceTree = "<group>"; };
 		B8D496CE2B7BD5A1004964E8 /* AlartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D496D12B7BD5A1004964E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8D496D32B7BD5A1004964E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		B8D496EE2B7BD5A3004964E8 /* AlartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D496F22B7BD5A3004964E8 /* AlartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlartAppUITests.swift; sourceTree = "<group>"; };
 		B8D496F42B7BD5A3004964E8 /* AlartAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlartAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B8D4970A2B7BD74B004964E8 /* AlatFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AlatFramework.xcodeproj; path = AlatFramework/AlatFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8762A352B7BE44200ECFDFE /* AlatFramework.framework in Frameworks */,
+				0B9524E12B7BECC800DE378F /* AlatFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,10 +109,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B9524D72B7BEC9100DE378F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B9524DC2B7BEC9100DE378F /* AlatFramework.framework */,
+				0B9524DE2B7BEC9100DE378F /* AlatFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B8D496C52B7BD5A1004964E8 = {
 			isa = PBXGroup;
 			children = (
-				B8D4970A2B7BD74B004964E8 /* AlatFramework.xcodeproj */,
+				0B9524D62B7BEC9100DE378F /* AlatFramework.xcodeproj */,
 				B8D496D02B7BD5A1004964E8 /* AlartApp */,
 				B8D496E72B7BD5A3004964E8 /* AlartAppTests */,
 				B8D496F12B7BD5A3004964E8 /* AlartAppUITests */,
@@ -162,19 +171,10 @@
 			path = AlartAppUITests;
 			sourceTree = "<group>";
 		};
-		B8D4970B2B7BD74B004964E8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B8D497102B7BD74B004964E8 /* AlatFramework.framework */,
-				B8D497122B7BD74B004964E8 /* AlatFrameworkTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B8D497132B7BD81B004964E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8762A312B7BE43100ECFDFE /* AlatFramework.framework */,
+				0B9524DF2B7BECC000DE378F /* AlatFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,8 +272,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B8D4970B2B7BD74B004964E8 /* Products */;
-					ProjectRef = B8D4970A2B7BD74B004964E8 /* AlatFramework.xcodeproj */;
+					ProductGroup = 0B9524D72B7BEC9100DE378F /* Products */;
+					ProjectRef = 0B9524D62B7BEC9100DE378F /* AlatFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -286,18 +286,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B8D497102B7BD74B004964E8 /* AlatFramework.framework */ = {
+		0B9524DC2B7BEC9100DE378F /* AlatFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = AlatFramework.framework;
-			remoteRef = B8D4970F2B7BD74B004964E8 /* PBXContainerItemProxy */;
+			remoteRef = 0B9524DB2B7BEC9100DE378F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B8D497122B7BD74B004964E8 /* AlatFrameworkTests.xctest */ = {
+		0B9524DE2B7BEC9100DE378F /* AlatFrameworkTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = AlatFrameworkTests.xctest;
-			remoteRef = B8D497112B7BD74B004964E8 /* PBXContainerItemProxy */;
+			remoteRef = 0B9524DD2B7BEC9100DE378F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
