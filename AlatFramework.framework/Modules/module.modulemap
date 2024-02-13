@@ -1,0 +1,11 @@
+framework module AlatFramework {
+  umbrella header "AlatFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AlatFramework.Swift {
+  header "AlatFramework-Swift.h"
+  requires objc
+}

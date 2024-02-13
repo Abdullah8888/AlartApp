@@ -1,0 +1,14 @@
+## User settings
+xcuserdata/
+
+build/
+DerivedData/
+
+.build/
+
+
+Pods/
+
+
+# DS_Store
+.DS_Store
